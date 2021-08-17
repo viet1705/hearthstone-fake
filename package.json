@@ -1,0 +1,23 @@
+{
+  "name": "hearthstone-fake",
+  "version": "1.0.0",
+  "description": "fake hearthstone",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter=html --reporter=text mocha",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "author": "Viet ND",
+  "dependencies": {
+    "deepcopy": "^0.6.3",
+    "express": "^4.17.1",
+    "ws": "^5.2.2"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.9",
+    "jshint": "^2.10.3",
+    "mocha": "^5.2.0",
+    "nyc": "^14.1.1",
+    "sinon": "^5.1.1"
+  }
+}

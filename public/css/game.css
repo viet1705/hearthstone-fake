@@ -1,0 +1,42 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Pangolin', Arial;
+}
+#login-container {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#login {
+    padding: 10px;
+    background-color: #D2B48C;
+    border: 5px dotted #DEB887;
+    border-radius: 5px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 45px;
+    text-align: center;
+}
+#login input[type=text] {
+    font-family: inherit;
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+#login button {
+    padding: 5px;
+    font-family: inherit;
+}
+#login .error {
+    display: block;
+    margin-bottom: 15px;
+}
+canvas {
+    display: block;
+    margin: 15px auto;
+}
